@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 
-type twProps = {
+type useTypewriter = {
     text: string,
     speed?: number,
 }
 
-export const useTw = ({ text, speed = 1000 }: twProps): string => {
+export const useTypewriter = ({ text, speed = 1000 }: useTypewriter): string => {
     const [currentText, setCurrentText] = useState('');
 
     useEffect(() => {

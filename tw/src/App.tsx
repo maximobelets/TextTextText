@@ -1,11 +1,11 @@
-import { useTw } from './useTw';
+import { useTypewriter } from './useTypewriter';
 
 import './App.css';
 
 function App() {
   return (
     <>
-        <div>{useTw({ text: 'test', speed: 1000 })}</div>
+        <div>{useTypewriter({ text: 'test', speed: 1000 })}</div>
     </>
   )
 }
